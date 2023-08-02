@@ -4,6 +4,7 @@
 import pandas as pd 
 from model_db import In_Moedas
 from transform import transform_data
+import acess
 
 output_datas = transform_data()
 
@@ -51,7 +52,7 @@ def load_data(nome_tabela, dados_df, con_db, construtor_db):
 get_con_db, construtor_con_db = In_Moedas.iniciar()
 
 # carregando os dados no Baco de Dados
-load_data('Moedas',
+load_data(acess.tb_nome,
           output_datas, 
           get_con_db, 
           construtor_con_db)

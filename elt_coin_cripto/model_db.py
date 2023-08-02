@@ -12,7 +12,7 @@ class In_Moedas(Base):
     """ Esta Classe tem como objetivo realizar o processo de carga no Banco de Dados """
     
     # Definindo o schema do Banco de Dados
-    __tablename__ = 'Coins' # se usar a 'Base' como parametro essa agregação é obrigatória
+    __tablename__ = acess.tb_nome # se usar a 'Base' como parametro essa agregação é obrigatória
     id = Column(Integer, primary_key=True) # obrigatório
     nome = Column(String)
     simbolo = Column(String)

@@ -33,3 +33,4 @@ Dados compartilhados por <a href="https://coinmarketcap.com/">CoinMarketcap.</a>
 Mais informações <a href="https://www.linkedin.com/in/mario-barcelos/">Mario Barcelos</a>
 # proj-eng-dados-cripto
 # proj-eng-dados-cripto
+# proj-eng-dados-cripto

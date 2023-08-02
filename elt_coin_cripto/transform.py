@@ -1,7 +1,7 @@
 #############################################################################
-################## Processo de Transformação dos Dados  #####################
+############# Processo de Validação e Agração dos Dados  ####################
 #############################################################################
-import pandas as pd 
+import pandas as pd
 from extract import extract_data
 import acess
 
