@@ -14,6 +14,7 @@ class In_Moedas(Base):
     # Definindo o schema do Banco de Dados
     __tablename__ = acess.tb_nome # se usar a 'Base' como parametro essa agregação é obrigatória
     id = Column(Integer, primary_key=True) # obrigatório
+    #index=Column(String)
     nome = Column(String)
     simbolo = Column(String)
     preco = Column(Float)

@@ -42,5 +42,7 @@ def transform_data(*args,**kwargs):
     }
     # criando um DF com dados 'estruturados'
     dados = pd.DataFrame(coins, columns=['nome','simbolo','preco','volume_24h','atualizado_em','inserido_em'])
+    #dados['index'] = dados.index
+    #dados = dados[['index','nome','simbolo','preco','volume_24h','atualizado_em','inserido_em']]
 
     return dados
