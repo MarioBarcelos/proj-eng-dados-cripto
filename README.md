@@ -3,7 +3,7 @@
 >  Atividade Pythonica com objetivo simples de executar uma atividade em Batch.
 
 ## Intrudução
-  A fim de praticar os bons hábitos de programar com Python, entrego neste pequeno projeto, Dados prontos para o uso comum em atividades de Ciência ou Análise de Dados. Inicio as atividades coletando Dados não estruturados, em formato json, de uma API privada, encaminho os Dados para formatação, selecionando propriedades específicas, limpando irregularidades e liberando no formato parquet. Carregando todas as matérias primas no PostgreSql RDS, diponibilizo de forma imediata Dados via SQL. 
+  A fim de praticar os bons hábitos de programar com Python, entrego neste pequeno projeto, Dados prontos para o uso comum em atividades de Ciência ou Análise de Dados. Inicio as atividades ingerindo dados não estruturados de uma API privada, seguindo regras de negócios pré-estabelecidas, encaminho os dados para modelagem, a fim de obter a melhor normalização, disponibilizo os dados manipulados e formatados em parquet, e em seguida, persisto todas as matérias primas no PostgreSql AWS RDS, alimentando regularmente serviços vinculados de Ciência de Dados ou Análise de Dados.
   
 <img src="proj_cripto.png">
 
